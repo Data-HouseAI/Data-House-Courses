@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Data House</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+</head>
+<body>
+  <header class="header">
+
+
+<div class="logo">
+  <a href="courses.html">
+    <img id="logoImage" src="Logo_light.png" alt="The Data House Logo" />
+	 </a>
+	       <div class="menu-toggle-course" id="mobileMenucourse">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+</div>
+
+
+	<!-- ✅ Hamburger for mobile -->
+      <!-- ✅ Hamburger inside navbar -->
+
+	  
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="DS_Course_01.html">Data Analysis with Power BI</a></li>
+	<li><a href="DS_Course_02.html">Introduction to AI in Life Science</a></li>
+	<li><a href="DS_Course_03.html">Introduction to GIT & GitHub</a></li>
+	<li><a href="DS_Course_04.html">Data Analysis with Python</a></li>
+	<!--<li><a href="courses.html">Courses</a></li>
+    <li><a href="pricing.html">Buy PowerBI Dashboard Templates</a></li>
+	<li><a href="pricing_Data.html">Buy Real World Data</a></li>-->
+  </ul>
+</nav>
+
+<div id="contactPopup" class="popup-overlay">
+  <div class="popup-content">
+    <span id="closePopup" class="close-btn">&times;</span>
+    <h3 class="popup-subtitle">WE ARE HERE TO MAKE YOUR DATA SHINE</h3>
+    <h2 class="popup-title">Get in touch with us</h2>
+
+    <form id="contactForm">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+      
+      <input type="text" name="phone" placeholder="Phone" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      </div>
+      <p class="privacy-note">
+        This site is protected by reCAPTCHA and the Google 
+        <a href="#" target="_blank">Privacy Policy</a> and 
+        <a href="#" target="_blank">Terms of Service</a> apply.
+      </p>
+
+      <button type="submit" class="send-btn">Send a Message</button>
+    </form>
+  </div>
+</div>
+
+
+    <div class="right-controls">
+<!--
+<button class="search-icon" aria-label="Search">
+🔍
+</button>
+-->
+      <label class="switch">
+        <input type="checkbox" id="modeToggle" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+
+
+  <section class="course-dashboard-price-section">
+    <div class="dashboard-price-container">
+
+      <!-- ✅ Image Carousel -->
+  <div class="slider-container">
+    <div class="slider-wrapper" id="sliderWrapper">
+      <!-- Slide 1 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_03/course_03_1.jpg" alt="Slide 1" />
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_03/course_03_2.jpg" alt="Slide 2" />
+      </div>
+      <!-- Slide 3 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_03/course_03_3.jpg" alt="Slide 3" />
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="nav left" onclick="prevSlide()">&#10094;</button>
+    <button class="nav right" onclick="nextSlide()">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="dots" id="dots"></div>
+
+    <!-- Slide Counter -->
+    <div class="counter" id="counter">1 / 3</div>
+  </div>
+
+      <!-- ✅ Info Section -->
+      <div class="dashboard-info">
+        <h1 class="dashboard-title">Introduction to Git & GitHub</h1>
+        <p class="dashboard-price-description">This course is your complete guide to Git and GitHub from version control basics to advanced workflows.
+		Learn to collaborate on code, automate tasks & deploy web apps straight from GitHub. Perfect for beginners looking to become 
+		confident in modern software development practices.<br><br><b>💰 The top three projects will be awarded cash prizes to recognize and celebrate your skills.
+		</b><br><br>
+		👉 Simply click the <b>"Price button"</b> to enroll in the course, complete your payment and submit the Google Form.</p>
+        <a class="dashboard-price-btn" href="https://forms.gle/MCvuZcdWoXSk7TGs8" target="_blank">LKR 7,500.00</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ DASHBOARD DETAIL SECTION -->
+  <div class="navbar-courses">
+    <ul>
+      <li><a href="#module1">About</a></li>
+      <li><a href="#module2">Outcomes</a></li>
+	  <li><a href="#module3">Instructor</a></li>
+      <li><a href="#module4">Modules</a></li>
+
+      <!--<li><a href="#module5">Module 5</a></li>
+      <li><a href="#module6">Module 6</a></li>-->
+    </ul>
+  </div>
+
+  <div class="course-services-container" id="module1">
+      <h2 class="course-service-title">About</h2>
+      <p class="course-service-content">
+        "Introduction to Git & GitHub" is a beginner-friendly course designed to help learners understand version control and collaborative coding. 
+		You’ll start by learning the fundamentals of Git and GitHub, then move on to mastering commands, managing pull requests, setting up workflows and 
+		resolving merge conflicts. By the end, you’ll have the skills to manage real world projects, automate development tasks and deploy web applications directly from GitHub.
+      </p>
+	</div>	
+	
+	  <div class="course-services-container" id="module2">
+      <h2 class="course-service-title">Outcomes</h2>
+      <p class="course-service-content">
+	  By the end of this course, you will be able to <br><br>
+
+✅ Understand the difference between Git and GitHub, and their role in version control.<br>
+
+✅ Create and manage repositories, branches, commits, and pull requests.<br>
+
+✅ Use core Git commands for collaborative coding.<br>
+
+✅ Resolve merge conflicts effectively.<br>
+
+✅ Set up CI/CD workflows using GitHub Actions.<br>
+
+✅ Leverage GitHub Copilot for enhanced coding productivity.<br>
+
+✅ Deploy applications using platforms like Netlify, Vercel, and Supabase.
+	</p>
+	</div>	
+	
+		  <div class="course-services-container" id="module3">
+      <h2 class="course-service-title">Instructor</h2>
+      <p class="course-service-content">
+       <b>Anu Gamage</b> is a Cheminformatics Research Scientist and DevOps Engineer specializing in AI-driven drug discovery, 
+	   computational chemistry & cheminformatics applications. With a B.Sc. (Hons) in Medical Laboratory Science from the University of Ruhuna &
+	   ongoing studies in Information Technology at the University of Colombo School of Computing, Anu bridges the worlds of chemistry, biology &
+	   computer science to accelerate scientific innovation. 
+	  </p>
+	  <p class="course-service-content">
+			   His professional experience spans AI/ML pipeline development, molecular modeling, pharmacophore mapping & 
+	   open-source chemical data governance, collaborating with researchers and industries globally. 
+	   Passionate about mentoring the next generation, Anu brings a unique blend of technical expertise, interdisciplinary vision &
+	   creativity to his teaching making complex concepts in AI and life sciences both accessible and inspiring.
+      </p>
+	</div>	
+	
+	  <div class="course-services-container" id="module4">
+      <h2 class="course-service-title">Modules</h2>
+	</div>	
+  <div class="container">
+	<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 1: What Is Git & GitHub?
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Difference between Git (version control) and GitHub (hosting)<br>
+
+			🔹 Benefits of distributed version control systems (VCS)<br>
+
+			</p>
+		</div>
+	</div>
+
+	<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 2: GitHub Components
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Repositories, branches and commits<br>
+
+			🔹 Issues & Discussions for tracking ideas and bugs<br>
+
+			🔹 Introduction to Pull Requests<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 3: Git Commands & Pull Requests
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Core commands: clone, add, commit, push, pull<br>
+
+			🔹 Creating & reviewing pull requests<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 4: Coding Tools & PR Management
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Setting up VS Code as your IDE<br>
+
+			🔹 Linting, formatting, and extensions<br>
+
+			🔹 Best practices for writing, sending, and reviewing PRs<br>
+			🔹 Resolving merge conflicts<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 5: GitHub Actions & CI/CD
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Understanding workflows, jobs, and actions<br>
+
+			🔹 Writing a simple CI pipeline<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 6: GitHub MCP Servers
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Overview of GitHub’s Multi-Cloud Provisioning (MCP)<br>
+
+			🔹 Use cases and benefits<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 7: GitHub Copilot & MCP Integration
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Using GitHub Copilot for faster coding<br>
+
+			🔹 Automating tasks with MCP servers<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 8: Deploying a Simple Web App
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Deployment tools overview: Netlify, Vercel, Supabase<br>
+
+			🔹 Live demo: VS Code + Copilot → Git → Netlify/Vercel<br>
+			</p>
+		</div>
+	</div>
+	
+			<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 9: Final Project
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Build & deploy a small web application end-to-end<br>
+
+			🔹 Deliverables: GitHub repo, CI/CD workflow, live app URL<br>
+			🔹 10-minute live demo & Q&A<br>
+			</p>
+		</div>
+	</div>
+
+  </div>
+
+
+<!-- ✅ FOOTER SECTION START -->
+<footer class="footer-section">
+  <div class="footer-container">
+
+    <!-- ✅ Logo & Description -->
+    <div class="footer-column logo-column">
+      <img id="footerLogo" src="Footer/footer_light.png" alt="Footer Logo" />
+    </div>
+
+    <!-- ✅ Navigation Columns -->
+    <div class="footer-column">
+      <h4 class="footer-title">Courses</h4>
+      <a href="DS_Course_01.html">Data Analysis with Power BI</a>
+      <a href="DS_Course_02.html">Introduction to AI in Life Science</a>
+      <a href="DS_Course_03.html">Introduction to GIT & GitHub</a>
+		<a href="DS_Course_04.html">Data Analysis with Python</a>
+    </div>
+
+<!--
+    <div class="footer-column">
+      <h4 class="footer-title">Pricing</h4>
+      <a href="pricing.html">PowerBI Templetes</a>
+      <a href="pricing_Data.html">Real World Data Sets</a>
+    </div>
+-->
+
+    <div class="footer-column">
+      <h4 class="footer-title">Contact</h4>
+      <a href="mailto:thedatahouseglobal@gmail.com">thedatahouseglobal@gmail.com</a>
+      <a href="tel:+95719900000">Phone - +94719546558</a>
+	  <a href="tel:+95719900000">Phone - +94765617680</a>
+    </div>
+  </div>
+
+  <!-- ✅ Social Media Section -->
+  <div class="footer-socials">
+    <a href="https://www.facebook.com/profile.php?id=61563744280014" target="_blank"><img src="Social/fb.png" alt="Facebook" /></a>
+    <a href="https://www.linkedin.com/company/96927009/admin/page-posts/published/" target="_blank"><img src="Social/linkedin.png" alt="LinkedIn" /></a>
+    <a href="https://www.youtube.com/@TheDataHouse28" target="_blank"><img src="Social/yt.png" alt="YouTube" /></a>
+<a href="https://www.instagram.com/_the_data_house?igsh=MW44aXluZWdhN21zbQ==" target="_blank"><img src="Social/insta.png" alt="Instegram" /></a>
+    <a href="https://chat.whatsapp.com/JYABGMYZsEyBbSUqcobDyt?mode=ac_t" target="_blank"><img src="Social/whatsapp.png" alt="WhatsApp" /></a>
+    <a href="https://www.tiktok.com/@thedatahouse?_t=ZS-8xzgdcCttD7&_r=1" target="_blank"><img src="Social/tiktok.png" alt="TikTok" /></a>
+  </div>
+
+  <!-- ✅ Bottom Footer Text -->
+  <div class="footer-bottom">
+    <p>
+      <b>© 2025 The Data House</b> <b>|</b> All rights reserved <b>|</b>
+      <!--<a href="privacy.html">Privacy Policy</a> <b>|</b>
+      <a href="terms.html">Terms of Service</a> <b>|</b>-->
+      Designed & Developed by <b>“The Data House”</b>
+    </p>
+  </div>
+</footer>
+<!-- ✅ FOOTER SECTION END -->
+
+<script src="script_course.js"></script>
+
+</body>
+</html>

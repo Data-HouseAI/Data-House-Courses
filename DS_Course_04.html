@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Data House</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+</head>
+<body>
+  <header class="header">
+
+
+<div class="logo">
+  <a href="courses.html">
+    <img id="logoImage" src="Logo_light.png" alt="The Data House Logo" />
+	 </a>
+	       <div class="menu-toggle-course" id="mobileMenucourse">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+</div>
+
+
+	<!-- ✅ Hamburger for mobile -->
+      <!-- ✅ Hamburger inside navbar -->
+
+	  
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="DS_Course_01.html">Data Analysis with Power BI</a></li>
+	<li><a href="DS_Course_02.html">Introduction to AI in Life Science</a></li>
+	<li><a href="DS_Course_03.html">Introduction to GIT & GitHub</a></li>
+	<li><a href="DS_Course_04.html">Data Analysis with Python</a></li>
+	<!--<li><a href="courses.html">Courses</a></li>
+    <li><a href="pricing.html">Buy PowerBI Dashboard Templates</a></li>
+	<li><a href="pricing_Data.html">Buy Real World Data</a></li>-->
+  </ul>
+</nav>
+
+<div id="contactPopup" class="popup-overlay">
+  <div class="popup-content">
+    <span id="closePopup" class="close-btn">&times;</span>
+    <h3 class="popup-subtitle">WE ARE HERE TO MAKE YOUR DATA SHINE</h3>
+    <h2 class="popup-title">Get in touch with us</h2>
+
+    <form id="contactForm">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+      
+      <input type="text" name="phone" placeholder="Phone" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      </div>
+      <p class="privacy-note">
+        This site is protected by reCAPTCHA and the Google 
+        <a href="#" target="_blank">Privacy Policy</a> and 
+        <a href="#" target="_blank">Terms of Service</a> apply.
+      </p>
+
+      <button type="submit" class="send-btn">Send a Message</button>
+    </form>
+  </div>
+</div>
+
+
+    <div class="right-controls">
+<!--
+<button class="search-icon" aria-label="Search">
+🔍
+</button>
+-->
+      <label class="switch">
+        <input type="checkbox" id="modeToggle" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+
+
+  <section class="course-dashboard-price-section">
+    <div class="dashboard-price-container">
+
+      <!-- ✅ Image Carousel -->
+  <div class="slider-container">
+    <div class="slider-wrapper" id="sliderWrapper">
+      <!-- Slide 1 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_04/course_04_1.jpg" alt="Slide 1" />
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_04/course_04_2.jpg" alt="Slide 2" />
+      </div>
+      <!-- Slide 3 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_04/course_04_3.jpg" alt="Slide 3" />
+      </div>
+
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="nav left" onclick="prevSlide()">&#10094;</button>
+    <button class="nav right" onclick="nextSlide()">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="dots" id="dots"></div>
+
+    <!-- Slide Counter -->
+    <div class="counter" id="counter">1 / 3</div>
+  </div>
+
+      <!-- ✅ Info Section -->
+      <div class="dashboard-info">
+        <h1 class="dashboard-title">Data Analysis with Python</h1>
+        <p class="dashboard-price-description">Data Analysis with Python is a hands-on course that teaches you how to collect, clean, analyze & visualize data 
+		using Python’s powerful libraries such as Pandas, NumPy, Matplotlib & Seaborn. By the end of the course, you’ll be confident in handling 
+		real-world datasets and presenting your findings effectively. 
+		<br><br><b>💰 The top three projects will be awarded cash prizes to recognize and celebrate your skills.</b><br><br>
+		👉 Simply click the <b>"Price button"</b> to enroll in the course, complete your payment and submit the Google Form.</p>
+        <a class="dashboard-price-btn" href="https://forms.gle/MCvuZcdWoXSk7TGs8" target="_blank">LKR 5,500.00</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ DASHBOARD DETAIL SECTION -->
+  <div class="navbar-courses">
+    <ul>
+      <li><a href="#module1">About</a></li>
+      <li><a href="#module2">Outcomes</a></li>
+	  <li><a href="#module3">Instructor</a></li>
+      <li><a href="#module4">Modules</a></li>
+
+      <!--<li><a href="#module5">Module 5</a></li>
+      <li><a href="#module6">Module 6</a></li>-->
+    </ul>
+  </div>
+
+  <div class="course-services-container" id="module1">
+      <h2 class="course-service-title">About</h2>
+      <p class="course-service-content">
+        The Data Analysis with Python course equips you with the skills to collect, clean, analyze & visualize data using Python. 
+		You’ll explore industry standard libraries like Pandas, NumPy, Matplotlib & Seaborn while learning best practices for 
+		data wrangling, statistical analysis & exploratory data analysis (EDA). By the end, you’ll be able to turn raw data 
+		into actionable insights and compelling visualizations for real world decision making.
+		<br><br><b>💰 The top three projects will be awarded cash prizes to recognize and celebrate your skills.</b>
+      </p>
+	</div>	
+	
+	  <div class="course-services-container" id="module2">
+      <h2 class="course-service-title">Outcomes</h2>
+      <p class="course-service-content">
+	  By the end of this course, you will be able to <br><br>
+
+✅ Confidently use Python for data manipulation, aggregation, and transformation.<br>
+
+✅ Perform exploratory data analysis to discover trends, correlations, and anomalies.<br>
+
+✅ Create interactive and static visualizations for clear storytelling.<br>
+
+✅ Work with real-world datasets to solve business and research problems
+	</p>
+	</div>	
+	
+		  <div class="course-services-container" id="module3">
+      <h2 class="course-service-title">Instructor</h2>
+      <p class="course-service-content">
+		<b>Chiran Weerasinghe</b> is a skilled Data Scientist and Sports Analyst with a strong track record in data analysis, machine learning & business intelligence.
+		Currently working as a Data Scientist at a leading bank in Sri Lanka, he brings extensive real world experience in 
+		transforming complex datasets into actionable insights. Academically, he holds a B.Sc. in Physical Science degree from the University of Kelaniya 
+		and is currently completing his M.Sc. in Data Science & Artificial Intelligence at the University of Sri Jayewardenepura. 
+	  </p>
+	  <p class="course-service-content">
+		His expertise spans Python programming, SQL, Power BI, data visualization, machine learning, model development and predictive analytics, 
+		making him adept at bridging theory with practical application. Passionate about empowering others through data literacy, 
+		he is committed to delivering hands on, industry relevant training that helps learners master the tools and techniques needed to excel in the field of data analytics.
+      </p>
+	</div>	
+	
+	  <div class="course-services-container" id="module4">
+      <h2 class="course-service-title">Modules</h2>
+	</div>	
+  <div class="container">
+	<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 1: Introduction to Data Analysis with Python
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Why Python for Data Analysis<br>
+
+			🔹 Setting up the Environment (Anaconda, Jupyter Notebook, VS Code)<br>
+
+			🔹 Overview of Data Analysis Workflow<br>
+			</p>
+		</div>
+	</div>
+
+	<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 2: Python Basics for Data Analysis
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Data Types, Variables, and Operators<br>
+
+			🔹 Control Structures (If-Else, Loops)<br>
+
+			🔹 Functions and List Comprehensions<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 3: Working with Data in Pandas & NumPy
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 DataFrames<br>
+
+			🔹 Importing CSV, Excel<br>
+
+			🔹 Indexing, Filtering, and Sorting Data<br>
+			
+			🔹 Aggregations and GroupBy<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 4: Data Cleaning & Preprocessing
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Handling Missing Values<br>
+
+			🔹 Detecting and Removing Duplicates<br>
+
+			🔹 Data Type Conversions<br>
+			🔹 Normalization & Standardization<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 5: Exploratory Data Analysis (EDA)
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Descriptive Statistics<br>
+
+			🔹 Correlation & Covariance<br>
+
+			🔹 Outlier Detection<br>
+			🔹 Data Summarization<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 6: Data Visualization
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Using Matplotlib for Plots<br>
+
+			🔹 Seaborn for Statistical Visualizations<br>
+
+			🔹 Customizing Charts for Insights<br>
+			🔹 Multi-plot Grids and Interactive Plots<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 7: Final Project (Hands On)
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Analyze a real-world dataset<br>
+
+			🔹 Document findings and present insights<br>
+
+			🔹 Submit for evaluation and receive feedback<br>
+			🔹 💰 Exciting Rewards – Cash prizes for the Top 3 Projects to recognize and celebrate your skills!<br>
+			
+			</p>
+		</div>
+	</div>
+
+  </div>
+
+
+<!-- ✅ FOOTER SECTION START -->
+<footer class="footer-section">
+  <div class="footer-container">
+
+    <!-- ✅ Logo & Description -->
+    <div class="footer-column logo-column">
+      <img id="footerLogo" src="Footer/footer_light.png" alt="Footer Logo" />
+    </div>
+
+    <!-- ✅ Navigation Columns -->
+    <div class="footer-column">
+      <h4 class="footer-title">Courses</h4>
+      <a href="DS_Course_01.html">Data Analysis with Power BI</a>
+      <a href="DS_Course_02.html">Introduction to AI in Life Science</a>
+      <a href="DS_Course_03.html">Introduction to GIT & GitHub</a>
+		<a href="DS_Course_04.html">Data Analysis with Python</a>
+    </div>
+<!--
+    <div class="footer-column">
+      <h4 class="footer-title">Pricing</h4>
+      <a href="pricing.html">PowerBI Templetes</a>
+      <a href="pricing_Data.html">Real World Data Sets</a>
+    </div>
+-->
+    <div class="footer-column">
+      <h4 class="footer-title">Contact</h4>
+      <a href="mailto:thedatahouseglobal@gmail.com">thedatahouseglobal@gmail.com</a>
+      <a href="tel:+95719900000">Phone - +94719546558</a>
+	  <a href="tel:+95719900000">Phone - +94765617680</a>
+    </div>
+  </div>
+
+  <!-- ✅ Social Media Section -->
+  <div class="footer-socials">
+    <a href="https://www.facebook.com/profile.php?id=61563744280014" target="_blank"><img src="Social/fb.png" alt="Facebook" /></a>
+    <a href="https://www.linkedin.com/company/96927009/admin/page-posts/published/" target="_blank"><img src="Social/linkedin.png" alt="LinkedIn" /></a>
+    <a href="https://www.youtube.com/@TheDataHouse28" target="_blank"><img src="Social/yt.png" alt="YouTube" /></a>
+<a href="https://www.instagram.com/_the_data_house?igsh=MW44aXluZWdhN21zbQ==" target="_blank"><img src="Social/insta.png" alt="Instegram" /></a>
+    <a href="https://chat.whatsapp.com/JYABGMYZsEyBbSUqcobDyt?mode=ac_t" target="_blank"><img src="Social/whatsapp.png" alt="WhatsApp" /></a>
+    <a href="https://www.tiktok.com/@thedatahouse?_t=ZS-8xzgdcCttD7&_r=1" target="_blank"><img src="Social/tiktok.png" alt="TikTok" /></a>
+  </div>
+
+  <!-- ✅ Bottom Footer Text -->
+  <div class="footer-bottom">
+    <p>
+      <b>© 2025 The Data House</b> <b>|</b> All rights reserved <b>|</b>
+      <!--<a href="privacy.html">Privacy Policy</a> <b>|</b>
+      <a href="terms.html">Terms of Service</a> <b>|</b>-->
+      Designed & Developed by <b>“The Data House”</b>
+    </p>
+  </div>
+</footer>
+<!-- ✅ FOOTER SECTION END -->
+
+<script src="script_course.js"></script>
+
+</body>
+</html>

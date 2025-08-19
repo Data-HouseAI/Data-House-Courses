@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Data House</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="/favicon.png" type="image/png" />
+</head>
+<body>
+  <header class="header">
+
+
+<div class="logo">
+  <a href="courses.html">
+    <img id="logoImage" src="Logo_light.png" alt="The Data House Logo" />
+	 </a>
+	       <div class="menu-toggle-course" id="mobileMenucourse">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+</div>
+
+
+	<!-- ✅ Hamburger for mobile -->
+      <!-- ✅ Hamburger inside navbar -->
+
+	  
+<nav class="navbar">
+  <ul class="nav-links">
+    <li><a href="DS_Course_01.html">Data Analysis with Power BI</a></li>
+	<li><a href="DS_Course_02.html">Introduction to AI in Life Science</a></li>
+	<li><a href="DS_Course_03.html">Introduction to GIT & GitHub</a></li>
+	<li><a href="DS_Course_04.html">Data Analysis with Python</a></li>
+	<!--<li><a href="courses.html">Courses</a></li>
+    <li><a href="pricing.html">Buy PowerBI Dashboard Templates</a></li>
+	<li><a href="pricing_Data.html">Buy Real World Data</a></li>-->
+  </ul>
+</nav>
+
+<div id="contactPopup" class="popup-overlay">
+  <div class="popup-content">
+    <span id="closePopup" class="close-btn">&times;</span>
+    <h3 class="popup-subtitle">WE ARE HERE TO MAKE YOUR DATA SHINE</h3>
+    <h2 class="popup-title">Get in touch with us</h2>
+
+    <form id="contactForm">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+
+      <input type="text" name="phone" placeholder="Phone" required>
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            </div>
+      <p class="privacy-note">
+        This site is protected by reCAPTCHA and the Google 
+        <a href="#" target="_blank">Privacy Policy</a> and 
+        <a href="#" target="_blank">Terms of Service</a> apply.
+      </p>
+
+      <button type="submit" class="send-btn">Send a Message</button>
+    </form>
+  </div>
+</div>
+
+
+    <div class="right-controls">
+<!--
+<button class="search-icon" aria-label="Search">
+🔍
+</button>
+-->
+      <label class="switch">
+        <input type="checkbox" id="modeToggle" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </header>
+
+
+  <section class="course-dashboard-price-section">
+    <div class="dashboard-price-container">
+
+      <!-- ✅ Image Carousel -->
+  <div class="slider-container">
+    <div class="slider-wrapper" id="sliderWrapper">
+      <!-- Slide 1 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_02/course_02_1.jpg" alt="Slide 1" />
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_02/course_02_2.jpg" alt="Slide 2" />
+      </div>
+      <!-- Slide 3 -->
+      <div class="slide-price">
+        <img src="Courses_Details/Course_02/course_02_3.jpg" alt="Slide 3" />
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="nav left" onclick="prevSlide()">&#10094;</button>
+    <button class="nav right" onclick="nextSlide()">&#10095;</button>
+
+    <!-- Dots -->
+    <div class="dots" id="dots"></div>
+
+    <!-- Slide Counter -->
+    <div class="counter" id="counter">1 / 3</div>
+  </div>
+
+      <!-- ✅ Info Section -->
+      <div class="dashboard-info">
+        <h1 class="dashboard-title">Introduction to AI in Life Science</h1>
+        <p class="dashboard-price-description">Master the art of applying AI in life sciences from drug discovery to genomics. 
+		Learn to handle big datasets, build predictive models & visualize results for real world healthcare and research applications. 
+		Complete the course with a hands on project that showcases your AI powered solution in the life science domain.<br><br><b>
+		💰 The top three projects will be awarded cash prizes to recognize and celebrate your skills.</b><br><br>
+		👉 Simply click the <b>"Price button"</b> to enroll in the course, complete your payment and submit the Google Form.</p>
+        <a class="dashboard-price-btn" href="https://forms.gle/MCvuZcdWoXSk7TGs8" target="_blank">LKR 5,500.00</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ DASHBOARD DETAIL SECTION -->
+  <div class="navbar-courses">
+    <ul>
+      <li><a href="#module1">About</a></li>
+      <li><a href="#module2">Outcomes</a></li>
+	  <li><a href="#module3">Instructor</a></li>
+      <li><a href="#module4">Modules</a></li>
+
+      <!--<li><a href="#module5">Module 5</a></li>
+      <li><a href="#module6">Module 6</a></li>-->
+    </ul>
+  </div>
+
+  <div class="course-services-container" id="module1">
+      <h2 class="course-service-title">About</h2>
+      <p class="course-service-content">
+        The Introduction to AI in Life Science course equips learners with the skills to apply 
+		artificial intelligence to modern biological & chemical problems. From understanding core AI concepts in bioinformatics to working 
+		hands on with big datasets, students will explore healthcare, drug discovery & genomics use-cases. Through guided labs & a 
+		final capstone project, you’ll gain both the theoretical foundation and practical expertise to solve real world life science challenges using AI.
+      </p>
+	</div>	
+	
+	  <div class="course-services-container" id="module2">
+      <h2 class="course-service-title">Outcomes</h2>
+      <p class="course-service-content">
+	  By the end of this course, you will be able to <br><br>
+
+✅ Explain fundamental AI concepts in biology, chemistry, and healthcare domains.<br>
+
+✅ Navigate key life science databases (PDB, PubChem, UniProt, ChemBL, genomics repositories).<br>
+
+✅ Acquire, clean & preprocess large biological datasets using APIs and scripting tools.<br>
+
+✅ Apply machine learning algorithms to solve domain-specific problems.<br>
+
+✅ Visualize complex bio-datasets and interpret predictive model outputs.<br>
+
+✅ Build and present an end-to-end AI-powered solution in a chosen life-science domain.
+	</p>
+	</div>	
+	
+		  <div class="course-services-container" id="module3">
+      <h2 class="course-service-title">Instructor</h2>
+      <p class="course-service-content">
+       <b>Anu Gamage</b> is a Cheminformatics Research Scientist and DevOps Engineer specializing in AI-driven drug discovery, 
+	   computational chemistry & cheminformatics applications. With a B.Sc. (Hons) in Medical Laboratory Science from the University of Ruhuna &
+	   ongoing studies in Information Technology at the University of Colombo School of Computing, Anu bridges the worlds of chemistry, biology &
+	   computer science to accelerate scientific innovation. 
+	  </p>
+	  <p class="course-service-content">
+			   His professional experience spans AI/ML pipeline development, molecular modeling, pharmacophore mapping & 
+	   open-source chemical data governance, collaborating with researchers and industries globally. 
+	   Passionate about mentoring the next generation, Anu brings a unique blend of technical expertise, interdisciplinary vision &
+	   creativity to his teaching making complex concepts in AI and life sciences both accessible and inspiring.
+      </p>
+	</div>	
+	
+	  <div class="course-services-container" id="module4">
+      <h2 class="course-service-title">Modules</h2>
+	</div>	
+  <div class="container">
+	<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 1: Introduction to AI in Life Science
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Overview of AI in Biology<br>
+
+			🔹 Definitions: Cheminformatics, Bioinformatics, Computational Biology, Computational Chemistry<br>
+
+			🔹 Applications in Healthcare & Pharma: drug-discovery pipelines, virtual screening, lead optimization<br>
+			</p>
+		</div>
+	</div>
+
+	<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 2: Big Data in Life Science
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Key Databases & Resources: PDB, PubChem, UniProt, ChemBL, genomics repositories<br>
+
+			🔹 Tools & Environments: Biopython basics, Google Colab setup<br>
+
+			🔹 Modern AI Models: GPT, Grok, Perplexity, Claude — use cases in coding and life-science workflows<br>
+			🔹 Data Acquisition & Cleaning: Fetching via REST APIs, preprocessing raw biological data<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 3: Big Data Analytics
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Machine Learning Foundations: supervised vs. unsupervised methods, common algorithms (random forest, clustering)<br>
+
+			🔹 Building & Tuning Models: feature selection, cross-validation, performance metrics<br>
+
+			🔹 Hands-On Lab: train a simple classifier on sequence or compound data<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 4: Data Visualization & Prediction
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Visualization Techniques: Python (matplotlib, seaborn) / R (ggplot2)<br>
+
+			🔹 Predictive Modeling: deploying models for real-time inference, interpreting results (ROC curves, feature importance)<br>
+
+			🔹 Lab Exercise: create dashboards to explore model outputs<br>
+			</p>
+		</div>
+	</div>
+	
+		<div class="module" id="module1">
+		<h2 class="module-header">
+		Module 5: Final Project Presentations
+		<span class="expand-btn">+</span>
+		</h2>
+		<div class="module-details">
+			<p>
+			🔹 Select a domain: genomics, cheminformatics, or integrative AI solution<br>
+
+			🔹 Deliverables: project report, code notebook, data pipeline, live presentation<br>
+			</p>
+		</div>
+	</div>
+
+  </div>
+
+
+<!-- ✅ FOOTER SECTION START -->
+<footer class="footer-section">
+  <div class="footer-container">
+
+    <!-- ✅ Logo & Description -->
+    <div class="footer-column logo-column">
+      <img id="footerLogo" src="Footer/footer_light.png" alt="Footer Logo" />
+    </div>
+
+    <!-- ✅ Navigation Columns -->
+    <div class="footer-column">
+      <h4 class="footer-title">Courses</h4>
+      <a href="DS_Course_01.html">Data Analysis with Power BI</a>
+      <a href="DS_Course_02.html">Introduction to AI in Life Science</a>
+      <a href="DS_Course_03.html">Introduction to GIT & GitHub</a>
+		<a href="DS_Course_04.html">Data Analysis with Python</a>
+    </div>
+
+<!--
+    <div class="footer-column">
+      <h4 class="footer-title">Pricing</h4>
+      <a href="pricing.html">PowerBI Templetes</a>
+      <a href="pricing_Data.html">Real World Data Sets</a>
+    </div>
+-->
+
+    <div class="footer-column">
+      <h4 class="footer-title">Contact</h4>
+      <a href="mailto:thedatahouseglobal@gmail.com">thedatahouseglobal@gmail.com</a>
+      <a href="tel:+95719900000">Phone - +94719546558</a>
+	  <a href="tel:+95719900000">Phone - +94765617680</a>
+    </div>
+  </div>
+
+  <!-- ✅ Social Media Section -->
+  <div class="footer-socials">
+    <a href="https://www.facebook.com/profile.php?id=61563744280014" target="_blank"><img src="Social/fb.png" alt="Facebook" /></a>
+    <a href="https://www.linkedin.com/company/96927009/admin/page-posts/published/" target="_blank"><img src="Social/linkedin.png" alt="LinkedIn" /></a>
+    <a href="https://www.youtube.com/@TheDataHouse28" target="_blank"><img src="Social/yt.png" alt="YouTube" /></a>
+<a href="https://www.instagram.com/_the_data_house?igsh=MW44aXluZWdhN21zbQ==" target="_blank"><img src="Social/insta.png" alt="Instegram" /></a>
+    <a href="https://chat.whatsapp.com/JYABGMYZsEyBbSUqcobDyt?mode=ac_t" target="_blank"><img src="Social/whatsapp.png" alt="WhatsApp" /></a>
+    <a href="https://www.tiktok.com/@thedatahouse?_t=ZS-8xzgdcCttD7&_r=1" target="_blank"><img src="Social/tiktok.png" alt="TikTok" /></a>
+  </div>
+
+  <!-- ✅ Bottom Footer Text -->
+  <div class="footer-bottom">
+    <p>
+      <b>© 2025 The Data House</b> <b>|</b> All rights reserved <b>|</b>
+      <!--<a href="privacy.html">Privacy Policy</a> <b>|</b>
+      <a href="terms.html">Terms of Service</a> <b>|</b>-->
+      Designed & Developed by <b>“The Data House”</b>
+    </p>
+  </div>
+</footer>
+<!-- ✅ FOOTER SECTION END -->
+
+<script src="script_course.js"></script>
+
+</body>
+</html>
